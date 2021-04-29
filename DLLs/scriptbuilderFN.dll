@@ -1,0 +1,90 @@
+  1           0 LOAD_CONST               0 (0)
+              2 LOAD_CONST               1 (None)
+              4 IMPORT_NAME              0 (os)
+              6 STORE_NAME               0 (os)
+
+  2           8 LOAD_CONST               0 (0)
+             10 LOAD_CONST               1 (None)
+             12 IMPORT_NAME              1 (time)
+             14 STORE_NAME               1 (time)
+
+  3          16 LOAD_CONST               0 (0)
+             18 LOAD_CONST               1 (None)
+             20 IMPORT_NAME              2 (pynput)
+             22 STORE_NAME               2 (pynput)
+
+  4          24 LOAD_CONST               0 (0)
+             26 LOAD_CONST               1 (None)
+             28 IMPORT_NAME              3 (random)
+             30 STORE_NAME               3 (random)
+
+  5          32 LOAD_CONST               0 (0)
+             34 LOAD_CONST               2 (('Controller',))
+             36 IMPORT_NAME              4 (pynput.keyboard)
+             38 IMPORT_FROM              5 (Controller)
+             40 STORE_NAME               5 (Controller)
+             42 POP_TOP
+
+  6          44 LOAD_CONST               0 (0)
+             46 LOAD_CONST               1 (None)
+             48 IMPORT_NAME              6 (pymsgbox)
+             50 STORE_NAME               6 (pymsgbox)
+
+  8          52 LOAD_NAME                0 (os)
+             54 LOAD_ATTR                7 (startfile)
+             56 LOAD_CONST               3 ('Notepad.exe')
+             58 CALL_FUNCTION            1
+             60 POP_TOP
+
+  9          62 LOAD_NAME                6 (pymsgbox)
+             64 LOAD_ATTR                8 (alert)
+             66 LOAD_CONST               4 ('')
+             68 LOAD_CONST               4 ('')
+             70 CALL_FUNCTION            2
+             72 POP_TOP
+
+ 10          74 LOAD_NAME                5 (Controller)
+             76 CALL_FUNCTION            0
+             78 STORE_NAME               9 (keyboard)
+
+ 13          80 LOAD_CONST               5 (<code object type_string_in_notepad at 0x561d89b97a40, file "example.py", line 13>)
+             82 LOAD_CONST               6 ('type_string_in_notepad')
+             84 MAKE_FUNCTION            0
+             86 STORE_NAME              10 (type_string_in_notepad)
+
+ 20          88 LOAD_NAME               10 (type_string_in_notepad)
+             90 LOAD_CONST               7 ("Why would you download this? I mean really, is cheating that important to you?\nIt's not like you're going to wake up one day and be just shit at the game is it?\nWell, if I'm being honest, you are since you're trying to cheat. But whatever.\nI don't ever want to see you download something like this again. Got it?")
+             92 CALL_FUNCTION            1
+             94 POP_TOP
+             96 LOAD_CONST               1 (None)
+             98 RETURN_VALUE
+
+Disassembly of <code object type_string_in_notepad at 0x561d89b97a40, file "example.py", line 13>:
+ 14           0 SETUP_LOOP              44 (to 46)
+              2 LOAD_FAST                0 (string)
+              4 GET_ITER
+        >>    6 FOR_ITER                36 (to 44)
+              8 STORE_FAST               1 (character)
+
+ 15          10 LOAD_GLOBAL              0 (keyboard)
+             12 LOAD_ATTR                1 (type)
+             14 LOAD_FAST                1 (character)
+             16 CALL_FUNCTION            1
+             18 POP_TOP
+
+ 16          20 LOAD_GLOBAL              2 (random)
+             22 LOAD_ATTR                3 (uniform)
+             24 LOAD_CONST               1 (0.08)
+             26 LOAD_CONST               2 (0.09)
+             28 CALL_FUNCTION            2
+             30 STORE_FAST               2 (delay)
+
+ 17          32 LOAD_GLOBAL              4 (time)
+             34 LOAD_ATTR                5 (sleep)
+             36 LOAD_FAST                2 (delay)
+             38 CALL_FUNCTION            1
+             40 POP_TOP
+             42 JUMP_ABSOLUTE            6
+        >>   44 POP_BLOCK
+        >>   46 LOAD_CONST               0 (None)
+             48 RETURN_VALUE

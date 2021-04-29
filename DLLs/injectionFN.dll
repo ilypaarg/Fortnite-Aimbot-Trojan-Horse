@@ -1,0 +1,1159 @@
+ 0 LOAD_CONST               0 (0)
+              2 LOAD_CONST               1 (None)
+              4 IMPORT_NAME              0 (time)
+              6 STORE_NAME               0 (time)
+
+  2           8 LOAD_CONST               0 (0)
+             10 LOAD_CONST               1 (None)
+             12 IMPORT_NAME              1 (random)
+             14 STORE_NAME               1 (random)
+
+  3          16 LOAD_CONST               0 (0)
+             18 LOAD_CONST               1 (None)
+             20 IMPORT_NAME              2 (sys)
+             22 STORE_NAME               2 (sys)
+
+  4          24 LOAD_CONST               0 (0)
+             26 LOAD_CONST               1 (None)
+             28 IMPORT_NAME              3 (os)
+             30 STORE_NAME               3 (os)
+
+  5          32 LOAD_CONST               0 (0)
+             34 LOAD_CONST               1 (None)
+             36 IMPORT_NAME              4 (enum)
+             38 STORE_NAME               4 (enum)
+
+  6          40 LOAD_CONST               0 (0)
+             42 LOAD_CONST               2 (('Enum',))
+             44 IMPORT_NAME              4 (enum)
+             46 IMPORT_FROM              5 (Enum)
+             48 STORE_NAME               5 (Enum)
+             50 POP_TOP
+
+  7          52 LOAD_CONST               0 (0)
+             54 LOAD_CONST               1 (None)
+             56 IMPORT_NAME              6 (array)
+             58 STORE_NAME               6 (array)
+
+  8          60 LOAD_CONST               0 (0)
+             62 LOAD_CONST               1 (None)
+             64 IMPORT_NAME              7 (json)
+             66 STORE_NAME               7 (json)
+
+  9          68 LOAD_CONST               0 (0)
+             70 LOAD_CONST               1 (None)
+             72 IMPORT_NAME              8 (pymsgbox)
+             74 STORE_NAME               8 (pymsgbox)
+
+ 10          76 LOAD_CONST               0 (0)
+             78 LOAD_CONST               1 (None)
+             80 IMPORT_NAME              9 (ctypes)
+             82 STORE_NAME               9 (ctypes)
+
+ 11          84 LOAD_CONST               0 (0)
+             86 LOAD_CONST               3 (('system',))
+             88 IMPORT_NAME              3 (os)
+             90 IMPORT_FROM             10 (system)
+             92 STORE_NAME              10 (system)
+             94 POP_TOP
+
+ 12          96 LOAD_CONST               0 (0)
+             98 LOAD_CONST               1 (None)
+            100 IMPORT_NAME             11 (numpy)
+            102 STORE_NAME              11 (numpy)
+
+ 13         104 LOAD_CONST               0 (0)
+            106 LOAD_CONST               1 (None)
+            108 IMPORT_NAME             11 (numpy)
+            110 STORE_NAME              12 (np)
+
+ 14         112 LOAD_CONST               0 (0)
+            114 LOAD_CONST               1 (None)
+            116 IMPORT_NAME             13 (logging)
+            118 STORE_NAME              13 (logging)
+
+ 15         120 LOAD_CONST               0 (0)
+            122 LOAD_CONST               1 (None)
+            124 IMPORT_NAME             14 (datetime)
+            126 STORE_NAME              14 (datetime)
+
+ 16         128 LOAD_CONST               0 (0)
+            130 LOAD_CONST               4 (('datetime',))
+            132 IMPORT_NAME             14 (datetime)
+            134 IMPORT_FROM             14 (datetime)
+            136 STORE_NAME              14 (datetime)
+            138 POP_TOP
+
+ 17         140 LOAD_CONST               0 (0)
+            142 LOAD_CONST               1 (None)
+            144 IMPORT_NAME             15 (colorama)
+            146 STORE_NAME              15 (colorama)
+
+ 18         148 LOAD_CONST               0 (0)
+            150 LOAD_CONST               5 (('Fore', 'Style'))
+            152 IMPORT_NAME             15 (colorama)
+            154 IMPORT_FROM             16 (Fore)
+            156 STORE_NAME              16 (Fore)
+            158 IMPORT_FROM             17 (Style)
+            160 STORE_NAME              17 (Style)
+            162 POP_TOP
+
+ 19         164 LOAD_CONST               0 (0)
+            166 LOAD_CONST               1 (None)
+            168 IMPORT_NAME             18 (webbrowser)
+            170 STORE_NAME              18 (webbrowser)
+
+ 20         172 LOAD_CONST               0 (0)
+            174 LOAD_CONST               1 (None)
+            176 IMPORT_NAME             19 (pynput)
+            178 STORE_NAME              19 (pynput)
+
+ 21         180 LOAD_CONST               0 (0)
+            182 LOAD_CONST               1 (None)
+            184 IMPORT_NAME             20 (threading)
+            186 STORE_NAME              20 (threading)
+
+ 22         188 LOAD_CONST               0 (0)
+            190 LOAD_CONST               6 (('Button', 'Controller'))
+            192 IMPORT_NAME             21 (pynput.mouse)
+            194 IMPORT_FROM             22 (Button)
+            196 STORE_NAME              22 (Button)
+            198 IMPORT_FROM             23 (Controller)
+            200 STORE_NAME              23 (Controller)
+            202 POP_TOP
+
+ 23         204 LOAD_CONST               0 (0)
+            206 LOAD_CONST               7 (('Listener', 'KeyCode'))
+            208 IMPORT_NAME             24 (pynput.keyboard)
+            210 IMPORT_FROM             25 (Listener)
+            212 STORE_NAME              25 (Listener)
+            214 IMPORT_FROM             26 (KeyCode)
+            216 STORE_NAME              26 (KeyCode)
+            218 POP_TOP
+
+ 24         220 LOAD_CONST               0 (0)
+            222 LOAD_CONST               1 (None)
+            224 IMPORT_NAME             27 (gtts)
+            226 STORE_NAME              27 (gtts)
+
+ 25         228 LOAD_CONST               0 (0)
+            230 LOAD_CONST               8 (('gTTS',))
+            232 IMPORT_NAME             27 (gtts)
+            234 IMPORT_FROM             28 (gTTS)
+            236 STORE_NAME              28 (gTTS)
+            238 POP_TOP
+
+ 27         240 LOAD_NAME               14 (datetime)
+            242 LOAD_ATTR               29 (now)
+            244 CALL_FUNCTION            0
+            246 LOAD_ATTR               30 (strftime)
+            248 LOAD_CONST               9 ('%Y_%m_%d-%I:%M:%S_%p')
+            250 CALL_FUNCTION            1
+            252 STORE_NAME              31 (date)
+
+ 29         254 LOAD_CONST              10 ('The Fortnite Aimbot [Awaiting Authentication]...')
+            256 STORE_NAME              32 (title)
+
+ 31         258 LOAD_NAME               10 (system)
+            260 LOAD_CONST              11 ('title ')
+            262 LOAD_NAME               32 (title)
+            264 BINARY_ADD
+            266 CALL_FUNCTION            1
+            268 POP_TOP
+
+ 33         270 LOAD_NAME                3 (os)
+            272 LOAD_ATTR               10 (system)
+            274 LOAD_CONST              12 ('cls')
+            276 CALL_FUNCTION            1
+            278 POP_TOP
+
+ 35         280 LOAD_NAME               33 (print)
+            282 LOAD_NAME               16 (Fore)
+            284 LOAD_ATTR               34 (WHITE)
+            286 LOAD_CONST              13 ("Acces key: 'public' ")
+            288 BINARY_ADD
+            290 CALL_FUNCTION            1
+            292 POP_TOP
+
+ 36         294 LOAD_NAME                0 (time)
+            296 LOAD_ATTR               35 (sleep)
+            298 LOAD_CONST              14 (1)
+            300 CALL_FUNCTION            1
+            302 POP_TOP
+
+ 37         304 LOAD_NAME                8 (pymsgbox)
+            306 LOAD_ATTR               36 (alert)
+            308 LOAD_CONST              15 ('You need an access key in order to access the Fortnite Aimbot \n Public key: public')
+            310 LOAD_CONST              16 ('WARNING!')
+            312 CALL_FUNCTION            2
+            314 POP_TOP
+
+ 38         316 LOAD_NAME                8 (pymsgbox)
+            318 LOAD_ATTR               37 (prompt)
+            320 LOAD_CONST              17 ('Please enter the access key: ')
+            322 CALL_FUNCTION            1
+            324 STORE_NAME              38 (response)
+
+ 39         326 LOAD_NAME               38 (response)
+            328 LOAD_CONST              18 ('public')
+            330 COMPARE_OP               2 (==)
+            332 EXTENDED_ARG             1
+            334 POP_JUMP_IF_TRUE       364
+            336 LOAD_CONST              19 ('Public')
+            338 EXTENDED_ARG             1
+            340 POP_JUMP_IF_FALSE      344
+
+ 40         342 JUMP_FORWARD            20 (to 364)
+
+ 42     >>  344 LOAD_NAME               33 (print)
+            346 LOAD_NAME               16 (Fore)
+            348 LOAD_ATTR               39 (RED)
+            350 LOAD_CONST              20 ('invalid key, closing.')
+            352 BINARY_ADD
+            354 CALL_FUNCTION            1
+            356 POP_TOP
+
+ 43         358 LOAD_NAME               40 (exit)
+            360 CALL_FUNCTION            0
+            362 POP_TOP
+
+ 45     >>  364 LOAD_CONST              21 ('The Fortnite Aimbot [AUTHENTICATED]...')
+            366 STORE_NAME              41 (title1)
+
+ 46         368 LOAD_NAME                3 (os)
+            370 LOAD_ATTR               10 (system)
+            372 LOAD_CONST              11 ('title ')
+            374 LOAD_NAME               41 (title1)
+            376 BINARY_ADD
+            378 CALL_FUNCTION            1
+            380 POP_TOP
+
+ 54         382 LOAD_NAME               13 (logging)
+            384 LOAD_ATTR               42 (basicConfig)
+            386 LOAD_CONST              22 ('%(asctime)s %(message)s')
+            388 LOAD_CONST              23 ('logs.log')
+            390 LOAD_CONST              24 ('utf-8')
+            392 LOAD_NAME               13 (logging)
+            394 LOAD_ATTR               43 (DEBUG)
+            396 LOAD_CONST              25 (('format', 'filename', 'encoding', 'level'))
+            398 CALL_FUNCTION_KW         4
+            400 POP_TOP
+
+ 55         402 LOAD_NAME               13 (logging)
+            404 LOAD_ATTR               44 (debug)
+            406 LOAD_CONST             102 (' Launched... [DEBUG]')
+            408 CALL_FUNCTION            1
+            410 POP_TOP
+
+ 56         412 LOAD_CONST              28 ('{ "application":"Fortnite Aimbot v1.0 [Stable]", "version":"v1.0", "status":"[Status]: active", "status2":"[Status]: running", "status3":"[Status]: closed"}')
+            414 STORE_NAME              45 (x)
+
+ 57         416 LOAD_NAME                7 (json)
+            418 LOAD_ATTR               46 (loads)
+            420 LOAD_NAME               45 (x)
+            422 CALL_FUNCTION            1
+            424 STORE_NAME              47 (y)
+
+ 58         426 LOAD_NAME               13 (logging)
+            428 LOAD_ATTR               44 (debug)
+            430 LOAD_CONST             103 (' JSON Parsed [COMPLETED SUCCESSFULLY]... [DEBUG]')
+            432 CALL_FUNCTION            1
+            434 POP_TOP
+
+ 59         436 LOAD_NAME                3 (os)
+            438 LOAD_ATTR               10 (system)
+            440 LOAD_CONST              30 ('pause')
+            442 CALL_FUNCTION            1
+            444 POP_TOP
+
+ 60         446 LOAD_NAME               33 (print)
+            448 LOAD_NAME               47 (y)
+            450 LOAD_CONST              31 ('status')
+            452 BINARY_SUBSCR
+            454 LOAD_CONST              32 (' ')
+            456 BINARY_ADD
+            458 LOAD_NAME               16 (Fore)
+            460 LOAD_ATTR               48 (GREEN)
+            462 BINARY_ADD
+            464 LOAD_CONST              33 ('(^-^)')
+            466 BINARY_ADD
+            468 CALL_FUNCTION            1
+            470 POP_TOP
+
+ 61         472 LOAD_NAME               13 (logging)
+            474 LOAD_ATTR               44 (debug)
+            476 LOAD_CONST             104 (' Application status sent... [DEBUG]')
+            478 CALL_FUNCTION            1
+            480 POP_TOP
+
+ 62         482 SETUP_LOOP             150 (to 634)
+            484 LOAD_NAME               49 (range)
+            486 LOAD_CONST              35 (5)
+            488 CALL_FUNCTION            1
+            490 GET_ITER
+        >>  492 FOR_ITER               138 (to 632)
+            494 STORE_NAME              50 (activity)
+
+ 63         496 LOAD_NAME               33 (print)
+            498 LOAD_NAME               16 (Fore)
+            500 LOAD_ATTR               51 (LIGHTRED_EX)
+            502 LOAD_CONST              36 ('(?_?) ')
+            504 BINARY_ADD
+            506 LOAD_NAME               16 (Fore)
+            508 LOAD_ATTR               34 (WHITE)
+            510 BINARY_ADD
+            512 LOAD_CONST              37 ('Thinking...')
+            514 BINARY_ADD
+            516 CALL_FUNCTION            1
+            518 POP_TOP
+
+ 64         520 LOAD_NAME                0 (time)
+            522 LOAD_ATTR               35 (sleep)
+            524 LOAD_CONST              38 (0.5)
+            526 CALL_FUNCTION            1
+            528 POP_TOP
+
+ 65         530 LOAD_NAME                3 (os)
+            532 LOAD_ATTR               10 (system)
+            534 LOAD_CONST              12 ('cls')
+            536 CALL_FUNCTION            1
+            538 POP_TOP
+
+ 66         540 LOAD_NAME               33 (print)
+            542 LOAD_NAME               16 (Fore)
+            544 LOAD_ATTR               52 (LIGHTGREEN_EX)
+            546 LOAD_CONST              36 ('(?_?) ')
+            548 BINARY_ADD
+            550 LOAD_NAME               16 (Fore)
+            552 LOAD_ATTR               34 (WHITE)
+            554 BINARY_ADD
+            556 LOAD_CONST              37 ('Thinking...')
+            558 BINARY_ADD
+            560 CALL_FUNCTION            1
+            562 POP_TOP
+
+ 67         564 LOAD_NAME                0 (time)
+            566 LOAD_ATTR               35 (sleep)
+            568 LOAD_CONST              38 (0.5)
+            570 CALL_FUNCTION            1
+            572 POP_TOP
+
+ 68         574 LOAD_NAME                3 (os)
+            576 LOAD_ATTR               10 (system)
+            578 LOAD_CONST              12 ('cls')
+            580 CALL_FUNCTION            1
+            582 POP_TOP
+
+ 69         584 LOAD_NAME               33 (print)
+            586 LOAD_NAME               16 (Fore)
+            588 LOAD_ATTR               53 (LIGHTBLUE_EX)
+            590 LOAD_CONST              36 ('(?_?) ')
+            592 BINARY_ADD
+            594 LOAD_NAME               16 (Fore)
+            596 LOAD_ATTR               34 (WHITE)
+            598 BINARY_ADD
+            600 LOAD_CONST              37 ('Thinking...')
+            602 BINARY_ADD
+            604 CALL_FUNCTION            1
+            606 POP_TOP
+
+ 70         608 LOAD_NAME                0 (time)
+            610 LOAD_ATTR               35 (sleep)
+            612 LOAD_CONST              38 (0.5)
+            614 CALL_FUNCTION            1
+            616 POP_TOP
+
+ 71         618 LOAD_NAME                3 (os)
+            620 LOAD_ATTR               10 (system)
+            622 LOAD_CONST              12 ('cls')
+            624 CALL_FUNCTION            1
+            626 POP_TOP
+            628 EXTENDED_ARG             1
+            630 JUMP_ABSOLUTE          492
+        >>  632 POP_BLOCK
+
+ 73     >>  634 LOAD_NAME                0 (time)
+            636 LOAD_ATTR               35 (sleep)
+            638 LOAD_CONST              14 (1)
+            640 CALL_FUNCTION            1
+            642 POP_TOP
+
+ 74         644 LOAD_NAME               33 (print)
+            646 LOAD_NAME               16 (Fore)
+            648 LOAD_ATTR               34 (WHITE)
+            650 LOAD_CONST              39 ('[!] ')
+            652 BINARY_ADD
+            654 LOAD_NAME               16 (Fore)
+            656 LOAD_ATTR               51 (LIGHTRED_EX)
+            658 BINARY_ADD
+            660 LOAD_CONST              40 ('DONE! ')
+            662 BINARY_ADD
+            664 LOAD_NAME               16 (Fore)
+            666 LOAD_ATTR               52 (LIGHTGREEN_EX)
+            668 BINARY_ADD
+            670 LOAD_CONST              41 ('(^_^)')
+            672 BINARY_ADD
+            674 CALL_FUNCTION            1
+            676 POP_TOP
+
+ 75         678 LOAD_NAME                0 (time)
+            680 LOAD_ATTR               35 (sleep)
+            682 LOAD_CONST              42 (2)
+            684 CALL_FUNCTION            1
+            686 POP_TOP
+
+ 76         688 LOAD_CONST              43 ('Fortnite Aimbot ')
+            690 LOAD_NAME               16 (Fore)
+            692 LOAD_ATTR               34 (WHITE)
+            694 BINARY_ADD
+            696 LOAD_CONST              44 ('[ ')
+            698 BINARY_ADD
+            700 LOAD_NAME               16 (Fore)
+            702 LOAD_ATTR               51 (LIGHTRED_EX)
+            704 BINARY_ADD
+            706 LOAD_CONST              45 ('INJECTION READY ')
+            708 BINARY_ADD
+            710 LOAD_NAME               16 (Fore)
+            712 LOAD_ATTR               34 (WHITE)
+            714 BINARY_ADD
+            716 LOAD_CONST              46 (']')
+            718 BINARY_ADD
+            720 STORE_NAME              54 (title2)
+
+ 77         722 LOAD_NAME                3 (os)
+            724 LOAD_ATTR               10 (system)
+            726 LOAD_CONST              11 ('title ')
+            728 LOAD_NAME               54 (title2)
+            730 BINARY_ADD
+            732 CALL_FUNCTION            1
+            734 POP_TOP
+
+ 78         736 LOAD_NAME                0 (time)
+            738 LOAD_ATTR               35 (sleep)
+            740 LOAD_CONST              14 (1)
+            742 CALL_FUNCTION            1
+            744 POP_TOP
+
+ 79         746 LOAD_NAME                3 (os)
+            748 LOAD_ATTR               10 (system)
+            750 LOAD_CONST              12 ('cls')
+            752 CALL_FUNCTION            1
+            754 POP_TOP
+
+ 80         756 LOAD_NAME                0 (time)
+            758 LOAD_ATTR               35 (sleep)
+            760 LOAD_CONST              14 (1)
+            762 CALL_FUNCTION            1
+            764 POP_TOP
+
+ 81         766 LOAD_NAME               33 (print)
+            768 LOAD_NAME               16 (Fore)
+            770 LOAD_ATTR               52 (LIGHTGREEN_EX)
+            772 LOAD_CONST              47 ('Reparsing JSON, Standby.')
+            774 BINARY_ADD
+            776 CALL_FUNCTION            1
+            778 POP_TOP
+
+ 82         780 LOAD_NAME                0 (time)
+            782 LOAD_ATTR               35 (sleep)
+            784 LOAD_CONST              14 (1)
+            786 CALL_FUNCTION            1
+            788 POP_TOP
+
+ 83         790 LOAD_NAME               33 (print)
+            792 LOAD_NAME               16 (Fore)
+            794 LOAD_ATTR               51 (LIGHTRED_EX)
+            796 LOAD_NAME               55 (str)
+            798 LOAD_NAME               47 (y)
+            800 CALL_FUNCTION            1
+            802 BINARY_ADD
+            804 CALL_FUNCTION            1
+            806 POP_TOP
+
+ 84         808 LOAD_NAME               13 (logging)
+            810 LOAD_ATTR               44 (debug)
+            812 LOAD_CONST             105 (' { "application":"Fortnite Aimbot v1.0 [Stable]", "version":"v1.0", "status":"[Status]: active", "status2":"[Status]: running", "status3":"[Status]: closed"} [DEBUG]')
+            814 CALL_FUNCTION            1
+            816 POP_TOP
+
+ 85         818 LOAD_NAME                0 (time)
+            820 LOAD_ATTR               35 (sleep)
+            822 LOAD_CONST              42 (2)
+            824 CALL_FUNCTION            1
+            826 POP_TOP
+
+ 86         828 LOAD_NAME                3 (os)
+            830 LOAD_ATTR               10 (system)
+            832 LOAD_CONST              12 ('cls')
+            834 CALL_FUNCTION            1
+            836 POP_TOP
+
+ 87         838 LOAD_NAME               33 (print)
+            840 LOAD_NAME               16 (Fore)
+            842 LOAD_ATTR               48 (GREEN)
+            844 LOAD_CONST              49 ('(0_0) ')
+            846 BINARY_ADD
+            848 LOAD_NAME               16 (Fore)
+            850 LOAD_ATTR               34 (WHITE)
+            852 BINARY_ADD
+            854 LOAD_CONST              50 ('Operation completed successfully!')
+            856 BINARY_ADD
+            858 CALL_FUNCTION            1
+            860 POP_TOP
+
+ 88         862 LOAD_NAME                0 (time)
+            864 LOAD_ATTR               35 (sleep)
+            866 LOAD_CONST              42 (2)
+            868 CALL_FUNCTION            1
+            870 POP_TOP
+
+ 89         872 LOAD_NAME                3 (os)
+            874 LOAD_ATTR               10 (system)
+            876 LOAD_CONST              12 ('cls')
+            878 CALL_FUNCTION            1
+            880 POP_TOP
+
+ 92         882 LOAD_NAME               56 (open)
+            884 LOAD_CONST              23 ('logs.log')
+            886 LOAD_CONST              51 ('r')
+            888 CALL_FUNCTION            2
+            890 STORE_NAME              57 (f)
+
+ 93         892 LOAD_NAME               13 (logging)
+            894 LOAD_ATTR               44 (debug)
+            896 LOAD_CONST              52 (' Injecting main args... ')
+            898 CALL_FUNCTION            1
+            900 POP_TOP
+
+ 94         902 LOAD_NAME                0 (time)
+            904 LOAD_ATTR               35 (sleep)
+            906 LOAD_CONST              53 (0.08)
+            908 CALL_FUNCTION            1
+            910 POP_TOP
+
+ 95         912 LOAD_NAME               13 (logging)
+            914 LOAD_ATTR               44 (debug)
+            916 LOAD_CONST              54 (' File directories found... ')
+            918 CALL_FUNCTION            1
+            920 POP_TOP
+
+ 96         922 LOAD_NAME                0 (time)
+            924 LOAD_ATTR               35 (sleep)
+            926 LOAD_CONST              53 (0.08)
+            928 CALL_FUNCTION            1
+            930 POP_TOP
+
+ 97         932 LOAD_NAME               13 (logging)
+            934 LOAD_ATTR               44 (debug)
+            936 LOAD_CONST              55 (' Injecting dynamic link libraries... ')
+            938 CALL_FUNCTION            1
+            940 POP_TOP
+
+ 98         942 LOAD_NAME                0 (time)
+            944 LOAD_ATTR               35 (sleep)
+            946 LOAD_CONST              53 (0.08)
+            948 CALL_FUNCTION            1
+            950 POP_TOP
+
+ 99         952 LOAD_NAME               13 (logging)
+            954 LOAD_ATTR               44 (debug)
+            956 LOAD_CONST              56 (' Adding to PATH... ')
+            958 CALL_FUNCTION            1
+            960 POP_TOP
+
+100         962 LOAD_NAME                0 (time)
+            964 LOAD_ATTR               35 (sleep)
+            966 LOAD_CONST              53 (0.08)
+            968 CALL_FUNCTION            1
+            970 POP_TOP
+
+101         972 LOAD_NAME               13 (logging)
+            974 LOAD_ATTR               44 (debug)
+            976 LOAD_CONST              57 (' Reloading dependencies... ')
+            978 CALL_FUNCTION            1
+            980 POP_TOP
+
+102         982 LOAD_NAME                0 (time)
+            984 LOAD_ATTR               35 (sleep)
+            986 LOAD_CONST              53 (0.08)
+            988 CALL_FUNCTION            1
+            990 POP_TOP
+
+103         992 LOAD_NAME               13 (logging)
+            994 LOAD_ATTR               44 (debug)
+            996 LOAD_CONST              58 (' Creating blob storage... ')
+            998 CALL_FUNCTION            1
+           1000 POP_TOP
+
+104        1002 LOAD_NAME                0 (time)
+           1004 LOAD_ATTR               35 (sleep)
+           1006 LOAD_CONST              53 (0.08)
+           1008 CALL_FUNCTION            1
+           1010 POP_TOP
+
+105        1012 LOAD_NAME               13 (logging)
+           1014 LOAD_ATTR               44 (debug)
+           1016 LOAD_CONST              59 (' Emptying libraries... ')
+           1018 CALL_FUNCTION            1
+           1020 POP_TOP
+
+106        1022 LOAD_NAME                0 (time)
+           1024 LOAD_ATTR               35 (sleep)
+           1026 LOAD_CONST              53 (0.08)
+           1028 CALL_FUNCTION            1
+           1030 POP_TOP
+
+107        1032 LOAD_NAME               13 (logging)
+           1034 LOAD_ATTR               44 (debug)
+           1036 LOAD_CONST              60 (' Including dynamic strings... ')
+           1038 CALL_FUNCTION            1
+           1040 POP_TOP
+
+108        1042 LOAD_NAME                0 (time)
+           1044 LOAD_ATTR               35 (sleep)
+           1046 LOAD_CONST              53 (0.08)
+           1048 CALL_FUNCTION            1
+           1050 POP_TOP
+
+109        1052 LOAD_NAME               13 (logging)
+           1054 LOAD_ATTR               44 (debug)
+           1056 LOAD_CONST              61 (' Excluding static strings... ')
+           1058 CALL_FUNCTION            1
+           1060 POP_TOP
+
+110        1062 LOAD_NAME                0 (time)
+           1064 LOAD_ATTR               35 (sleep)
+           1066 LOAD_CONST              53 (0.08)
+           1068 CALL_FUNCTION            1
+           1070 POP_TOP
+
+111        1072 LOAD_NAME               13 (logging)
+           1074 LOAD_ATTR               44 (debug)
+           1076 LOAD_CONST              62 (' Patching old files... ')
+           1078 CALL_FUNCTION            1
+           1080 POP_TOP
+
+112        1082 LOAD_NAME                0 (time)
+           1084 LOAD_ATTR               35 (sleep)
+           1086 LOAD_CONST              53 (0.08)
+           1088 CALL_FUNCTION            1
+           1090 POP_TOP
+
+113        1092 LOAD_NAME               13 (logging)
+           1094 LOAD_ATTR               44 (debug)
+           1096 LOAD_CONST              63 (' Destroying constructors... ')
+           1098 CALL_FUNCTION            1
+           1100 POP_TOP
+
+114        1102 LOAD_NAME                0 (time)
+           1104 LOAD_ATTR               35 (sleep)
+           1106 LOAD_CONST              53 (0.08)
+           1108 CALL_FUNCTION            1
+           1110 POP_TOP
+
+115        1112 LOAD_NAME               13 (logging)
+           1114 LOAD_ATTR               44 (debug)
+           1116 LOAD_CONST              64 (' Opening locations... ')
+           1118 CALL_FUNCTION            1
+           1120 POP_TOP
+
+116        1122 LOAD_NAME                0 (time)
+           1124 LOAD_ATTR               35 (sleep)
+           1126 LOAD_CONST              53 (0.08)
+           1128 CALL_FUNCTION            1
+           1130 POP_TOP
+
+117        1132 LOAD_NAME               13 (logging)
+           1134 LOAD_ATTR               44 (debug)
+           1136 LOAD_CONST              65 (' Finding args... ')
+           1138 CALL_FUNCTION            1
+           1140 POP_TOP
+
+118        1142 LOAD_NAME                0 (time)
+           1144 LOAD_ATTR               35 (sleep)
+           1146 LOAD_CONST              53 (0.08)
+           1148 CALL_FUNCTION            1
+           1150 POP_TOP
+
+119        1152 LOAD_NAME               13 (logging)
+           1154 LOAD_ATTR               44 (debug)
+           1156 LOAD_CONST              66 (' Injection concluded... ')
+           1158 CALL_FUNCTION            1
+           1160 POP_TOP
+
+120        1162 LOAD_NAME                0 (time)
+           1164 LOAD_ATTR               35 (sleep)
+           1166 LOAD_CONST              67 (3)
+           1168 CALL_FUNCTION            1
+           1170 POP_TOP
+
+121        1172 LOAD_NAME                3 (os)
+           1174 LOAD_ATTR               10 (system)
+           1176 LOAD_CONST              12 ('cls')
+           1178 CALL_FUNCTION            1
+           1180 POP_TOP
+
+123        1182 LOAD_NAME               33 (print)
+           1184 LOAD_NAME               16 (Fore)
+           1186 LOAD_ATTR               34 (WHITE)
+           1188 LOAD_CONST              68 ('Press any key to start the Fortnite hacks.')
+           1190 BINARY_ADD
+           1192 CALL_FUNCTION            1
+           1194 POP_TOP
+
+124        1196 LOAD_NAME                3 (os)
+           1198 LOAD_ATTR               10 (system)
+           1200 LOAD_CONST              30 ('pause')
+           1202 CALL_FUNCTION            1
+           1204 POP_TOP
+
+125        1206 LOAD_NAME               13 (logging)
+           1208 LOAD_ATTR               44 (debug)
+           1210 LOAD_CONST              69 (' Launched "cheats"... ')
+           1212 CALL_FUNCTION            1
+           1214 POP_TOP
+
+126        1216 LOAD_NAME                0 (time)
+           1218 LOAD_ATTR               35 (sleep)
+           1220 LOAD_CONST              14 (1)
+           1222 CALL_FUNCTION            1
+           1224 POP_TOP
+
+127        1226 LOAD_CONST              70 ('https://www.fortnite.com')
+           1228 STORE_NAME              58 (url1)
+
+128        1230 LOAD_CONST              71 ('https://www.virustotal.com/gui/')
+           1232 STORE_NAME              59 (url2)
+
+130        1234 SETUP_LOOP              68 (to 1304)
+           1236 LOAD_NAME               49 (range)
+           1238 LOAD_CONST              72 (10)
+           1240 CALL_FUNCTION            1
+           1242 GET_ITER
+        >> 1244 FOR_ITER                56 (to 1302)
+           1246 STORE_NAME              60 (w)
+
+131        1248 LOAD_NAME                0 (time)
+           1250 LOAD_ATTR               35 (sleep)
+           1252 LOAD_CONST              14 (1)
+           1254 CALL_FUNCTION            1
+           1256 POP_TOP
+
+132        1258 LOAD_NAME               18 (webbrowser)
+           1260 LOAD_ATTR               56 (open)
+           1262 LOAD_NAME               58 (url1)
+           1264 CALL_FUNCTION            1
+           1266 POP_TOP
+
+133        1268 LOAD_NAME                0 (time)
+           1270 LOAD_ATTR               35 (sleep)
+           1272 LOAD_CONST              14 (1)
+           1274 CALL_FUNCTION            1
+           1276 POP_TOP
+
+134        1278 LOAD_NAME               18 (webbrowser)
+           1280 LOAD_ATTR               61 (open_new)
+           1282 LOAD_NAME               59 (url2)
+           1284 CALL_FUNCTION            1
+           1286 POP_TOP
+
+135        1288 LOAD_NAME                0 (time)
+           1290 LOAD_ATTR               35 (sleep)
+           1292 LOAD_CONST              14 (1)
+           1294 CALL_FUNCTION            1
+           1296 POP_TOP
+           1298 EXTENDED_ARG             4
+           1300 JUMP_ABSOLUTE         1244
+        >> 1302 POP_BLOCK
+
+137     >> 1304 LOAD_NAME                3 (os)
+           1306 LOAD_ATTR               62 (startfile)
+           1308 LOAD_CONST              73 ('Notepad.exe')
+           1310 CALL_FUNCTION            1
+           1312 POP_TOP
+
+138        1314 LOAD_NAME               13 (logging)
+           1316 LOAD_ATTR               44 (debug)
+           1318 LOAD_CONST              74 (' creating dummy window to bait priority... ')
+           1320 CALL_FUNCTION            1
+           1322 POP_TOP
+
+139        1324 LOAD_NAME                8 (pymsgbox)
+           1326 LOAD_ATTR               36 (alert)
+           1328 LOAD_CONST              75 ('')
+           1330 LOAD_CONST              75 ('')
+           1332 CALL_FUNCTION            2
+           1334 POP_TOP
+
+140        1336 LOAD_NAME               13 (logging)
+           1338 LOAD_ATTR               44 (debug)
+           1340 LOAD_CONST              76 (' Launched Notepad... ')
+           1342 CALL_FUNCTION            1
+           1344 POP_TOP
+
+141        1346 LOAD_NAME               23 (Controller)
+           1348 CALL_FUNCTION            0
+           1350 STORE_NAME              63 (keyboard)
+
+144        1352 LOAD_CONST              77 (<code object type_string_in_notepad at 0x5616de895d40, file "example.py", line 144>)
+           1354 LOAD_CONST              78 ('type_string_in_notepad')
+           1356 MAKE_FUNCTION            0
+           1358 STORE_NAME              64 (type_string_in_notepad)
+
+156        1360 LOAD_NAME                0 (time)
+           1362 LOAD_ATTR               35 (sleep)
+           1364 LOAD_CONST              67 (3)
+           1366 CALL_FUNCTION            1
+           1368 POP_TOP
+
+157        1370 LOAD_NAME               13 (logging)
+           1372 LOAD_ATTR               44 (debug)
+           1374 LOAD_CONST              79 (' TTS reading... ')
+           1376 CALL_FUNCTION            1
+           1378 POP_TOP
+
+158        1380 LOAD_CONST              80 ('okay on god bro dont close this hear me out. i know you did some fucky wucky shit right about now.\ni know you be tryin to cheat in fortnite. that aint cool bro. you dont have to ruin the game for everyone else homie.\nits all good though. since this isnt a bad virus its not like its here to stay. you can just delete this.\ndont go download another one tho fr lol.')
+           1382 STORE_NAME              65 (read)
+
+163        1384 LOAD_CONST              81 ('en')
+           1386 STORE_NAME              66 (language)
+
+165        1388 LOAD_NAME               28 (gTTS)
+           1390 LOAD_NAME               65 (read)
+           1392 LOAD_NAME               66 (language)
+           1394 LOAD_CONST              82 (False)
+           1396 LOAD_CONST              83 (('text', 'lang', 'slow'))
+           1398 CALL_FUNCTION_KW         3
+           1400 STORE_NAME              67 (objyo)
+
+166        1402 LOAD_NAME               13 (logging)
+           1404 LOAD_ATTR               44 (debug)
+           1406 LOAD_CONST              84 (' Preparing to save audio file... ')
+           1408 CALL_FUNCTION            1
+           1410 POP_TOP
+
+168        1412 LOAD_NAME               67 (objyo)
+           1414 LOAD_ATTR               68 (save)
+           1416 LOAD_CONST              85 ('fortnite.mp3')
+           1418 CALL_FUNCTION            1
+           1420 POP_TOP
+
+169        1422 LOAD_NAME               13 (logging)
+           1424 LOAD_ATTR               44 (debug)
+           1426 LOAD_CONST              86 (' audio file saved... ')
+           1428 CALL_FUNCTION            1
+           1430 POP_TOP
+
+170        1432 LOAD_NAME               13 (logging)
+           1434 LOAD_ATTR               44 (debug)
+           1436 LOAD_CONST              87 (' opening audio file... ')
+           1438 CALL_FUNCTION            1
+           1440 POP_TOP
+
+172        1442 LOAD_NAME                3 (os)
+           1444 LOAD_ATTR               10 (system)
+           1446 LOAD_CONST              85 ('fortnite.mp3')
+           1448 CALL_FUNCTION            1
+           1450 POP_TOP
+
+173        1452 LOAD_NAME               13 (logging)
+           1454 LOAD_ATTR               44 (debug)
+           1456 LOAD_CONST              88 (' audio file opened... ')
+           1458 CALL_FUNCTION            1
+           1460 POP_TOP
+
+175        1462 LOAD_NAME                0 (time)
+           1464 LOAD_ATTR               35 (sleep)
+           1466 LOAD_CONST              67 (3)
+           1468 CALL_FUNCTION            1
+           1470 POP_TOP
+
+177        1472 LOAD_NAME               13 (logging)
+           1474 LOAD_ATTR               44 (debug)
+           1476 LOAD_CONST              89 (' Starting clicking thread... ')
+           1478 CALL_FUNCTION            1
+           1480 POP_TOP
+
+178        1482 LOAD_CONST              90 (0.001)
+           1484 STORE_NAME              69 (delay)
+
+179        1486 LOAD_NAME               22 (Button)
+           1488 LOAD_ATTR               70 (left)
+           1490 STORE_NAME              71 (button)
+
+180        1492 LOAD_NAME               26 (KeyCode)
+           1494 LOAD_CONST              91 ('n')
+           1496 LOAD_CONST              92 (('char',))
+           1498 CALL_FUNCTION_KW         1
+           1500 STORE_NAME              72 (start_stop_key)
+
+181        1502 LOAD_NAME               26 (KeyCode)
+           1504 LOAD_CONST              93 ('o')
+           1506 LOAD_CONST              92 (('char',))
+           1508 CALL_FUNCTION_KW         1
+           1510 STORE_NAME              73 (exit_key)
+
+183        1512 LOAD_BUILD_CLASS
+           1514 LOAD_CONST              94 (<code object ClickMouse at 0x5616de8be910, file "example.py", line 183>)
+           1516 LOAD_CONST              95 ('ClickMouse')
+           1518 MAKE_FUNCTION            0
+           1520 LOAD_CONST              95 ('ClickMouse')
+           1522 LOAD_NAME               20 (threading)
+           1524 LOAD_ATTR               74 (Thread)
+           1526 CALL_FUNCTION            3
+           1528 STORE_NAME              75 (ClickMouse)
+
+207        1530 LOAD_NAME               23 (Controller)
+           1532 CALL_FUNCTION            0
+           1534 STORE_NAME              76 (mouse)
+
+208        1536 LOAD_NAME               75 (ClickMouse)
+           1538 LOAD_NAME               69 (delay)
+           1540 LOAD_NAME               71 (button)
+           1542 CALL_FUNCTION            2
+           1544 STORE_NAME              77 (click_thread)
+
+209        1546 LOAD_NAME               77 (click_thread)
+           1548 LOAD_ATTR               78 (start)
+           1550 CALL_FUNCTION            0
+           1552 POP_TOP
+
+211        1554 LOAD_CONST              96 (<code object on_press at 0x5616de9313f0, file "example.py", line 211>)
+           1556 LOAD_CONST              97 ('on_press')
+           1558 MAKE_FUNCTION            0
+           1560 STORE_NAME              79 (on_press)
+
+221        1562 LOAD_NAME               25 (Listener)
+           1564 LOAD_NAME               79 (on_press)
+           1566 LOAD_CONST              98 (('on_press',))
+           1568 CALL_FUNCTION_KW         1
+           1570 SETUP_WITH              14 (to 1586)
+           1572 STORE_NAME              80 (listener)
+
+222        1574 LOAD_NAME               80 (listener)
+           1576 LOAD_ATTR               81 (join)
+           1578 CALL_FUNCTION            0
+           1580 POP_TOP
+           1582 POP_BLOCK
+           1584 LOAD_CONST               1 (None)
+        >> 1586 WITH_CLEANUP_START
+           1588 WITH_CLEANUP_FINISH
+           1590 END_FINALLY
+
+223        1592 LOAD_NAME               13 (logging)
+           1594 LOAD_ATTR               44 (debug)
+           1596 LOAD_NAME               47 (y)
+           1598 LOAD_CONST              99 ('status3')
+           1600 BINARY_SUBSCR
+           1602 LOAD_CONST             100 ('...')
+           1604 BINARY_ADD
+           1606 CALL_FUNCTION            1
+           1608 POP_TOP
+
+224        1610 LOAD_NAME               13 (logging)
+           1612 LOAD_ATTR               44 (debug)
+           1614 LOAD_CONST             101 (' program aborted... ')
+           1616 CALL_FUNCTION            1
+           1618 POP_TOP
+           1620 LOAD_CONST               1 (None)
+           1622 RETURN_VALUE
+
+Disassembly of <code object type_string_in_notepad at 0x5616de895d40, file "example.py", line 144>:
+145           0 SETUP_LOOP              44 (to 46)
+              2 LOAD_FAST                0 (string)
+              4 GET_ITER
+        >>    6 FOR_ITER                36 (to 44)
+              8 STORE_FAST               1 (character)
+
+146          10 LOAD_GLOBAL              0 (keyboard)
+             12 LOAD_ATTR                1 (type)
+             14 LOAD_FAST                1 (character)
+             16 CALL_FUNCTION            1
+             18 POP_TOP
+
+147          20 LOAD_GLOBAL              2 (random)
+             22 LOAD_ATTR                3 (uniform)
+             24 LOAD_CONST               1 (0.08)
+             26 LOAD_CONST               2 (0.09)
+             28 CALL_FUNCTION            2
+             30 STORE_FAST               2 (delay)
+
+148          32 LOAD_GLOBAL              4 (time)
+             34 LOAD_ATTR                5 (sleep)
+             36 LOAD_FAST                2 (delay)
+             38 CALL_FUNCTION            1
+             40 POP_TOP
+             42 JUMP_ABSOLUTE            6
+        >>   44 POP_BLOCK
+
+150     >>   46 LOAD_GLOBAL              6 (logging)
+             48 LOAD_ATTR                7 (debug)
+             50 LOAD_CONST               3 (' Getting ready to type... ')
+             52 CALL_FUNCTION            1
+             54 POP_TOP
+
+151          56 LOAD_GLOBAL              8 (type_string_in_notepad)
+             58 LOAD_CONST               4 ("Why would you download this? I mean really, is cheating that important to you?\nIt's not like you're going to wake up one day and be just shit at the game is it?\nWell, if I'm being honest, you are since you're trying to cheat. But whatever.\nI don't ever want to see you download something like this again. Got it?")
+             60 CALL_FUNCTION            1
+             62 POP_TOP
+             64 LOAD_CONST               0 (None)
+             66 RETURN_VALUE
+
+Disassembly of <code object ClickMouse at 0x5616de8be910, file "example.py", line 183>:
+183           0 LOAD_NAME                0 (__name__)
+              2 STORE_NAME               1 (__module__)
+              4 LOAD_CONST               0 ('ClickMouse')
+              6 STORE_NAME               2 (__qualname__)
+
+184           8 LOAD_CLOSURE             0 (__class__)
+             10 BUILD_TUPLE              1
+             12 LOAD_CONST               1 (<code object __init__ at 0x5616de8b2b10, file "example.py", line 184>)
+             14 LOAD_CONST               2 ('ClickMouse.__init__')
+             16 MAKE_FUNCTION            8
+             18 STORE_NAME               3 (__init__)
+
+191          20 LOAD_CONST               3 (<code object start_clicking at 0x5616de8a9660, file "example.py", line 191>)
+             22 LOAD_CONST               4 ('ClickMouse.start_clicking')
+             24 MAKE_FUNCTION            0
+             26 STORE_NAME               4 (start_clicking)
+
+194          28 LOAD_CONST               5 (<code object stop_clicking at 0x5616de8aa510, file "example.py", line 194>)
+             30 LOAD_CONST               6 ('ClickMouse.stop_clicking')
+             32 MAKE_FUNCTION            0
+             34 STORE_NAME               5 (stop_clicking)
+
+197          36 LOAD_CONST               7 (<code object exit at 0x5616de8ab400, file "example.py", line 197>)
+             38 LOAD_CONST               8 ('ClickMouse.exit')
+             40 MAKE_FUNCTION            0
+             42 STORE_NAME               6 (exit)
+
+201          44 LOAD_CONST               9 (<code object run at 0x5616de8ac920, file "example.py", line 201>)
+             46 LOAD_CONST              10 ('ClickMouse.run')
+             48 MAKE_FUNCTION            0
+             50 STORE_NAME               7 (run)
+             52 LOAD_CLOSURE             0 (__class__)
+             54 DUP_TOP
+             56 STORE_NAME               8 (__classcell__)
+             58 RETURN_VALUE
+
+Disassembly of <code object __init__ at 0x5616de8b2b10, file "example.py", line 184>:
+185           0 LOAD_GLOBAL              0 (super)
+              2 LOAD_GLOBAL              1 (ClickMouse)
+              4 LOAD_FAST                0 (self)
+              6 CALL_FUNCTION            2
+              8 LOAD_ATTR                2 (__init__)
+             10 CALL_FUNCTION            0
+             12 POP_TOP
+
+186          14 LOAD_FAST                1 (delay)
+             16 LOAD_FAST                0 (self)
+             18 STORE_ATTR               3 (delay)
+
+187          20 LOAD_FAST                2 (button)
+             22 LOAD_FAST                0 (self)
+             24 STORE_ATTR               4 (button)
+
+188          26 LOAD_CONST               1 (False)
+             28 LOAD_FAST                0 (self)
+             30 STORE_ATTR               5 (running)
+
+189          32 LOAD_CONST               2 (True)
+             34 LOAD_FAST                0 (self)
+             36 STORE_ATTR               6 (program_running)
+             38 LOAD_CONST               0 (None)
+             40 RETURN_VALUE
+
+Disassembly of <code object start_clicking at 0x5616de8a9660, file "example.py", line 191>:
+192           0 LOAD_CONST               1 (True)
+              2 LOAD_FAST                0 (self)
+              4 STORE_ATTR               0 (running)
+              6 LOAD_CONST               0 (None)
+              8 RETURN_VALUE
+
+Disassembly of <code object stop_clicking at 0x5616de8aa510, file "example.py", line 194>:
+195           0 LOAD_CONST               1 (False)
+              2 LOAD_FAST                0 (self)
+              4 STORE_ATTR               0 (running)
+              6 LOAD_CONST               0 (None)
+              8 RETURN_VALUE
+
+Disassembly of <code object exit at 0x5616de8ab400, file "example.py", line 197>:
+198           0 LOAD_FAST                0 (self)
+              2 LOAD_ATTR                0 (stop_clicking)
+              4 CALL_FUNCTION            0
+              6 POP_TOP
+
+199           8 LOAD_CONST               1 (False)
+             10 LOAD_FAST                0 (self)
+             12 STORE_ATTR               1 (program_running)
+             14 LOAD_CONST               0 (None)
+             16 RETURN_VALUE
+
+Disassembly of <code object run at 0x5616de8ac920, file "example.py", line 201>:
+202           0 SETUP_LOOP              34 (to 36)
+        >>    2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (program_running)
+              6 POP_JUMP_IF_FALSE       34
+
+203           8 LOAD_GLOBAL              1 (mouse)
+             10 LOAD_ATTR                2 (click)
+             12 LOAD_FAST                0 (self)
+             14 LOAD_ATTR                3 (button)
+             16 CALL_FUNCTION            1
+             18 POP_TOP
+
+204          20 LOAD_GLOBAL              4 (time)
+             22 LOAD_ATTR                5 (sleep)
+             24 LOAD_FAST                0 (self)
+             26 LOAD_ATTR                6 (delay)
+             28 CALL_FUNCTION            1
+             30 POP_TOP
+             32 JUMP_ABSOLUTE            2
+        >>   34 POP_BLOCK
+
+205     >>   36 LOAD_GLOBAL              4 (time)
+             38 LOAD_ATTR                5 (sleep)
+             40 LOAD_CONST               1 (0.1)
+             42 CALL_FUNCTION            1
+             44 POP_TOP
+             46 LOAD_CONST               0 (None)
+             48 RETURN_VALUE
+
+Disassembly of <code object on_press at 0x5616de9313f0, file "example.py", line 211>:
+212           0 LOAD_FAST                0 (key)
+              2 LOAD_GLOBAL              0 (start_stop_key)
+              4 COMPARE_OP               2 (==)
+              6 POP_JUMP_IF_FALSE       34
+
+213           8 LOAD_GLOBAL              1 (click_thread)
+             10 LOAD_ATTR                2 (running)
+             12 POP_JUMP_IF_FALSE       24
+
+214          14 LOAD_GLOBAL              1 (click_thread)
+             16 LOAD_ATTR                3 (stop_clicking)
+             18 CALL_FUNCTION            0
+             20 POP_TOP
+             22 JUMP_ABSOLUTE           58
+
+216     >>   24 LOAD_GLOBAL              1 (click_thread)
+             26 LOAD_ATTR                4 (start_clicking)
+             28 CALL_FUNCTION            0
+             30 POP_TOP
+             32 JUMP_FORWARD            24 (to 58)
+
+217     >>   34 LOAD_FAST                0 (key)
+             36 LOAD_GLOBAL              5 (exit_key)
+             38 COMPARE_OP               2 (==)
+             40 POP_JUMP_IF_FALSE       58
+
+218          42 LOAD_GLOBAL              1 (click_thread)
+             44 LOAD_ATTR                6 (exit)
+             46 CALL_FUNCTION            0
+             48 POP_TOP
+
+219          50 LOAD_GLOBAL              7 (listener)
+             52 LOAD_ATTR                8 (stop)
+             54 CALL_FUNCTION            0
+             56 POP_TOP
+        >>   58 LOAD_CONST               0 (None)
+             60 RETURN_VALUE

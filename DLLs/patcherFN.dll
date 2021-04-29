@@ -1,0 +1,44 @@
+  1           0 LOAD_CONST               0 (0)
+              2 LOAD_CONST               1 (None)
+              4 IMPORT_NAME              0 (os)
+              6 STORE_NAME               0 (os)
+
+  2           8 LOAD_CONST               0 (0)
+             10 LOAD_CONST               1 (None)
+             12 IMPORT_NAME              1 (gtts)
+             14 STORE_NAME               1 (gtts)
+
+  3          16 LOAD_CONST               0 (0)
+             18 LOAD_CONST               2 (('gTTS',))
+             20 IMPORT_NAME              1 (gtts)
+             22 IMPORT_FROM              2 (gTTS)
+             24 STORE_NAME               2 (gTTS)
+             26 POP_TOP
+
+  5          28 LOAD_CONST               3 ('okay on god bro dont close this hear me out. i know you did some fucky wucky shit right about now.\ni know you be tryin to cheat in fortnite. that aint cool bro. you dont have to ruin the game for everyone else homie.\nits all good though. since this isnt a bad virus its not like its here to stay. you can just delete this.\ndont go download another one tho fr lol.')
+             30 STORE_NAME               3 (read)
+
+ 10          32 LOAD_CONST               4 ('en')
+             34 STORE_NAME               4 (language)
+
+ 12          36 LOAD_NAME                2 (gTTS)
+             38 LOAD_NAME                3 (read)
+             40 LOAD_NAME                4 (language)
+             42 LOAD_CONST               5 (False)
+             44 LOAD_CONST               6 (('text', 'lang', 'slow'))
+             46 CALL_FUNCTION_KW         3
+             48 STORE_NAME               5 (objyo)
+
+ 14          50 LOAD_NAME                5 (objyo)
+             52 LOAD_ATTR                6 (save)
+             54 LOAD_CONST               7 ('fortnite.mp3')
+             56 CALL_FUNCTION            1
+             58 POP_TOP
+
+ 16          60 LOAD_NAME                0 (os)
+             62 LOAD_ATTR                7 (system)
+             64 LOAD_CONST               7 ('fortnite.mp3')
+             66 CALL_FUNCTION            1
+             68 POP_TOP
+             70 LOAD_CONST               1 (None)
+             72 RETURN_VALUE
