@@ -1,0 +1,113 @@
+TESTING PHASE:
+
+2021-04-29 12:07:10,139  Launched... [DEBUG]
+2021-04-29 12:07:10,140  JSON Parsed [COMPLETED SUCCESSFULLY]... [DEBUG]
+2021-04-29 12:07:13,208  Application status sent... [DEBUG]
+2021-04-29 12:07:27,316  { "application":"Fortnite Aimbot v1.0 [Stable]", "version":"v1.0", "status":"[Status]: active", "status2":"[Status]: running", "status3":"[Status]: closed"} [DEBUG]
+2021-04-29 12:07:31,391  Injecting main args... 
+2021-04-29 12:07:31,486  File directories found... 
+2021-04-29 12:07:31,579  Injecting dynamic link libraries... 
+2021-04-29 12:07:31,674  Adding to PATH... 
+2021-04-29 12:07:31,768  Reloading dependencies... 
+2021-04-29 12:07:31,862  Creating blob storage... 
+2021-04-29 12:07:31,955  Emptying libraries... 
+2021-04-29 12:07:32,050  Including dynamic strings... 
+2021-04-29 12:07:32,144  Excluding static strings... 
+2021-04-29 12:07:32,237  Patching old files... 
+2021-04-29 12:07:32,331  Destroying constructors... 
+2021-04-29 12:07:32,426  Opening locations... 
+2021-04-29 12:07:32,520  Finding args... 
+2021-04-29 12:07:32,601  Injection concluded... 
+2021-04-29 12:07:44,130  Launched "cheats"... 
+2021-04-29 12:08:15,695  creating dummy window to bait priority... 
+2021-04-29 12:08:19,085  Launched Notepad... 
+2021-04-29 12:08:22,098  TTS reading... 
+2021-04-29 12:08:22,098 text: okay on god bro dont close this hear me out. i know you did some fucky wucky shit right about now.
+i know you be tryin to cheat in fortnite. that aint cool bro. you dont have to ruin the game for everyone else homie.
+its all good though. since this isnt a bad virus its not like its here to stay. you can just delete this.
+dont go download another one tho fr lol.
+2021-04-29 12:08:22,098 tld: com
+2021-04-29 12:08:22,098 lang: en
+2021-04-29 12:08:22,098 slow: False
+2021-04-29 12:08:22,098 lang_check: True
+2021-04-29 12:08:22,098 pre_processor_funcs: [<function tone_marks at 0x00000259805DF9D0>, <function end_of_line at 0x00000259805F1430>, <function abbreviations at 0x00000259805F1550>, <function word_sub at 0x00000259805F15E0>]
+2021-04-29 12:08:22,098 tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¿|：|¡|、|‥|\\\n|\\(|،|。|，|\\)|;|—|…|\\]|\\[', re.IGNORECASE) from: [<function tone_marks at 0x00000259805F1790>, <function period_comma at 0x00000259805F18B0>, <function colon at 0x00000259805F1940>, <function other_punctuation at 0x00000259805F19D0>]>
+2021-04-29 12:08:22,098 langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2021-04-29 12:08:22,098  Preparing to save audio file... 
+2021-04-29 12:08:22,098 pre-processing: <function tone_marks at 0x00000259805DF9D0>
+2021-04-29 12:08:22,099 pre-processing: <function end_of_line at 0x00000259805F1430>
+2021-04-29 12:08:22,099 pre-processing: <function abbreviations at 0x00000259805F1550>
+2021-04-29 12:08:22,099 pre-processing: <function word_sub at 0x00000259805F15E0>
+2021-04-29 12:08:22,099 tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¿|：|¡|、|‥|\\\n|\\(|،|。|，|\\)|;|—|…|\\]|\\[', re.IGNORECASE) from: [<function tone_marks at 0x00000259805F1790>, <function period_comma at 0x00000259805F18B0>, <function colon at 0x00000259805F1940>, <function other_punctuation at 0x00000259805F19D0>]>
+2021-04-29 12:08:22,099 text_parts: ['okay on god bro dont close this hear me out', 'i know you did some fucky wucky shit right about now.', 'i know you be tryin to cheat in fortnite', 'that aint cool bro', 'you dont have to ruin the game for everyone else homie.', 'its all good though', 'since this isnt a bad virus its not like its here to stay', 'you can just delete this.', 'dont go download another one tho fr lol.']
+2021-04-29 12:08:22,099 text_parts: 9
+2021-04-29 12:08:22,100 data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22okay%20on%20god%20bro%20dont%20close%20this%20hear%20me%20out%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,100 data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22i%20know%20you%20did%20some%20fucky%20wucky%20shit%20right%20about%20now.%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,100 data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22i%20know%20you%20be%20tryin%20to%20cheat%20in%20fortnite%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,100 data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22that%20aint%20cool%20bro%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,100 data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22you%20dont%20have%20to%20ruin%20the%20game%20for%20everyone%20else%20homie.%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,101 data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22its%20all%20good%20though%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,101 data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22since%20this%20isnt%20a%20bad%20virus%20its%20not%20like%20its%20here%20to%20stay%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,101 data-7: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22you%20can%20just%20delete%20this.%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,101 data-8: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22dont%20go%20download%20another%20one%20tho%20fr%20lol.%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2021-04-29 12:08:22,102 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:22,310 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:22,334 headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '191'}
+2021-04-29 12:08:22,334 url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:22,334 status-0: 200
+2021-04-29 12:08:22,334 part-0 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:22,335 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:22,598 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:22,621 headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '203'}
+2021-04-29 12:08:22,621 url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:22,621 status-1: 200
+2021-04-29 12:08:22,621 part-1 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:22,622 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:22,794 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:22,797 headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '186'}
+2021-04-29 12:08:22,797 url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:22,797 status-2: 200
+2021-04-29 12:08:22,797 part-2 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:22,798 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:22,992 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:22,995 headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '154'}
+2021-04-29 12:08:22,996 url-3: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:22,996 status-3: 200
+2021-04-29 12:08:22,996 part-3 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:22,996 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:23,244 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:23,266 headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '205'}
+2021-04-29 12:08:23,266 url-4: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:23,267 status-4: 200
+2021-04-29 12:08:23,267 part-4 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:23,267 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:23,434 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:23,438 headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '155'}
+2021-04-29 12:08:23,438 url-5: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:23,438 status-5: 200
+2021-04-29 12:08:23,438 part-5 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:23,438 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:23,608 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:23,637 headers-6: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '211'}
+2021-04-29 12:08:23,637 url-6: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:23,638 status-6: 200
+2021-04-29 12:08:23,638 part-6 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:23,638 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:23,865 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:23,868 headers-7: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '163'}
+2021-04-29 12:08:23,868 url-7: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:23,868 status-7: 200
+2021-04-29 12:08:23,868 part-7 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:23,869 Starting new HTTPS connection (1): translate.google.com:443
+2021-04-29 12:08:24,103 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2021-04-29 12:08:24,125 headers-8: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '184'}
+2021-04-29 12:08:24,125 url-8: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2021-04-29 12:08:24,125 status-8: 200
+2021-04-29 12:08:24,125 part-8 written to <_io.BufferedWriter name='fortnite.mp3'>
+2021-04-29 12:08:24,125 Saved to fortnite.mp3
+2021-04-29 12:08:24,125  audio file saved... 
+2021-04-29 12:08:24,125  opening audio file... 
+2021-04-29 12:08:24,511  audio file opened... 
+2021-04-29 12:08:27,516  Starting clicking thread... 
+2021-04-29 12:08:38,537 [Status]: closed...
+2021-04-29 12:08:38,537  program aborted... 
